@@ -1,0 +1,38 @@
+# ไฟล์และโฟลเดอร์ Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ไฟล์ environment
+.env
+
+# ไฟล์ Django และ migrations
+db.sqlite3
+*.sqlite3
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# ไฟล์ settings และ config
+*.ini
+*.cfg
+*.env
+*.local
+.DS_Store
+
+# ไฟล์ static และ media
+/static/
+media/
+
+# โฟลเดอร์ที่สร้างจากการใช้งาน Docker และอื่นๆ
+venv/
+node_modules/
+*.log
+*.pot
+*.mo
+*.swp
+*.swo
